@@ -51,7 +51,7 @@ public class MovieRentalSystem extends JFrame {
 
     private void connectDB() {
         try {
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/MovieRental", "root", "2903");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/MovieRental", "root", "YOUR_MYSQL_PASSWORD");
         } catch (Exception e) {
             e.printStackTrace();
         }
