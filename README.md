@@ -89,7 +89,7 @@ INSERT INTO Rentals (user_id, movie_id, rented_on, due_date) VALUES
 ### Steps
 
 ```bash
-git clone https://github.com/your-username/movie-rental-system.git
+git clone https://github.com/pkprajapati7402/movie-rental-system.git
 cd movie-rental-system
 ```
 
